@@ -122,7 +122,6 @@ prompt mà nếu xóa đi, hành vi trợ lý sẽ thay đổi rõ rệt — và
 > System Prompt"Bạn là một giáo viên IT giảng dạy cho trẻ em. Hãy giải thích mọi khái niệm bằng ngôn ngữ siêu đơn giản và luôn kết thúc câu trả lời bằng một câu đố vui."
 >
 > - Xóa cụm "giảng dạy cho trẻ em/ngôn ngữ siêu đơn giản": Trợ lý sẽ quay lại trả lời theo kiểu học thuật, khô khan, chứa nhiều thuật ngữ kỹ thuật khó hiểu với người mới.
->
 > - Xóa cụm "luôn kết thúc bằng một câu đố vui": Trợ lý sẽ chỉ dừng lại sau khi giải thích xong, làm mất tính tương tác chủ động và yếu tố vui nhộn định hình phong cách.
 
 ### Câu 4.2 — Hạn chế & cải thiện
@@ -132,14 +131,13 @@ cụ thể mà giới hạn này khiến trợ lý trả lời sai/mất ngữ c
 cách khắc phục (ví dụ: tóm tắt các lượt cũ, tăng giới hạn có chọn lọc...):**
 
 > - Tình huống mất ngữ cảnh: Người dùng chơi trò giải đố hoặc phỏng vấn thử việc. Ở lượt chat thứ 1, người dùng nêu 3 quy tắc/yêu cầu. Đến lượt thứ 5 (sau 4 lượt hỏi đáp), toàn bộ quy tắc ban đầu bị cắt khỏi history. Trợ lý sẽ vi phạm luật chơi hoặc hỏi lại thông tin đã biết.
->
 > - Giải pháp: Áp dụng kỹ thuật Tóm tắt lịch sử (Conversation Summary). Khi history vượt quá 4 lượt, thay vì xóa bỏ, dùng một model nhỏ (như GPT-4o-mini) tóm tắt các ý chính của các lượt cũ thành một đoạn văn ngắn và đính kèm cố định ngay sau System Prompt.
 
 ---
 
 ## Danh Sách Kiểm Tra Nộp Bài
 
-- [ ] `python grade.py` — xem điểm tự động, mục tiêu ≥ 75/100
-- [ ] Cả 4 checkpoint pytest đều pass
-- [ ] Tất cả 9 câu trong file này đã được trả lời
-- [ ] Đã copy bài làm vào folder `solution/`, push lên GitHub cá nhân và nộp link repo vào vlearn (theo hướng dẫn README)
+- [X] `python grade.py` — xem điểm tự động, mục tiêu ≥ 75/100
+- [X] Cả 4 checkpoint pytest đều pass
+- [X] Tất cả 9 câu trong file này đã được trả lời
+- [X] Đã copy bài làm vào folder `solution/`, push lên GitHub cá nhân và nộp link repo vào vlearn (theo hướng dẫn README)
